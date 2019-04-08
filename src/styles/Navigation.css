@@ -1,0 +1,41 @@
+.main ul li {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px;
+  margin-left: 30px;
+}
+nav.main a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1b1b2b;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px;
+}
+
+nav.main a:hover {
+  color: gray;
+  border-bottom: 1px solid #ed2d2d;
+}
+nav.main a.active {
+  color: #ed2d2d;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.main {
+  width: 50%;
+}
+
+.nameAndSurname {
+  width: 50%;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 25px;
+  color: #ed2d2d;
+  transform: translateY(7px);
+}
+
+.navigation {
+  display: flex;
+}
